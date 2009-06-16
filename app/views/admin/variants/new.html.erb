@@ -1,0 +1,11 @@
+<%= render :partial => 'admin/shared/product_sub_menu' %>
+
+<%= error_messages_for :variant %>
+
+<% form_for(:variant, :url => collection_url, :html => {:multipart => true}) do |f| %>
+  <%= render :partial => "form", :locals => { :f => f } %>
+  <div id="image-listing">
+    <%= render :partial => 'admin/products/images', :locals => {:viewable => @variant, :f => f} -%>
+  </div>
+  <%= render :partial => 'admin/shared/new_resource_links' %>
+<% end %>

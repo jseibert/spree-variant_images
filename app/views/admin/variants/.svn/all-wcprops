@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/slouchback_web/!svn/ver/41/branches/ecommerce/vendor/extensions/variant_images/app/views/admin/variants
+END
+edit.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/slouchback_web/!svn/ver/41/branches/ecommerce/vendor/extensions/variant_images/app/views/admin/variants/edit.html.erb
+END
+new.html.erb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/slouchback_web/!svn/ver/41/branches/ecommerce/vendor/extensions/variant_images/app/views/admin/variants/new.html.erb
+END
